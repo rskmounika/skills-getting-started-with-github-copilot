@@ -70,8 +70,30 @@ section h3 {
   color: #0066cc;
 }
 
-.activity-card p {
-  margin-bottom: 8px;
+.activity-card li {
+  margin-bottom: 5px;
+  color: #555;
+}
+
+.activity-card ul {
+  margin: 10px 0;
+  padding-left: 0;
+}
+
+.delete-icon {
+  cursor: pointer;
+  margin-left: 10px;
+  font-size: 1.2em;
+}
+
+.delete-icon:hover {
+  color: #c62828;
+}
+
+.no-participants {
+  color: #888;
+  font-style: italic;
+  margin: 5px 0;
 }
 
 .form-group {
